@@ -1,0 +1,185 @@
+/*start heading*/
+html {
+    scroll-behavior:smooth;
+    height: 100%;
+  }
+.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .active>.nav-link{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .active>.nav-link:hover{
+    color: orangered;
+}
+.btn-info:hover{
+    background-color: orange;
+    border-color: orange;
+}
+/*end heading*/
+/*carousel start*/
+#carousel-heading{
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+#carousel-text{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+}
+#carousel-button{
+    text-transform: uppercase;
+    background-color: orange;
+    color: black;
+    border-color: orange;
+}
+#carousel-button:hover{
+    background-color:green;
+    border-color: green;
+}
+/*carousel end*/
+/* featurette start*/
+#card-content{
+    margin-top: 100px;
+}
+.card-header{
+    background-color: palegreen;
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card-body{
+    background-color: honeydew;
+    font-size: large;
+}
+#feature-heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: orangered;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.card-title{
+    text-transform: uppercase;
+    color: blue;
+}
+.container{
+    margin-top: 8%;
+}
+ 
+.inner{
+    overflow: hidden;
+}
+ 
+.inner img{
+    transition: all 1.5s ease;
+}
+ 
+.inner:hover img{
+    transform: scale(1.5);
+}
+#changemaker-content{
+    font-weight: bold;
+    color: rgb(44, 43, 43);
+    background-color: orange;
+    border: 1px solid black;
+
+}
+#contact-link{
+    text-decoration: none;
+    color: green;
+}
+#contact-link:hover{
+    color: blue;
+}
+/* featurette end*/
+/* start footer*/
+footer {
+    box-shadow: 0 50vh 0 50vh darkblue;
+}
+#footer-link{
+    color: orange;
+    text-decoration: none;
+}
+#footer-link:hover{
+    color: chartreuse;
+}
+/*end footer*/
+/*donate page*/
+#inputState option{
+    font-size: 0.75rem;
+}
+/*donate page*/
+/*pre-loader start*/
+.loader{
+    height: 100vh;
+    width: 100%;
+    background: #FFF url(../icons/preloader.gif) center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loader.hidden {
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+/* pre-loader end
+/* pop-up start*/
+#popUpMain{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index:1001;
+
+}
+#popup{
+    width: 500px;
+    height: 250px;
+    background-color:rgba(24, 23, 22, 0.795); ;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    box-shadow:2px 2px 5px 3px white;
+    font-family: 'Slabo 27px', serif;
+}
+#newsHeading{
+    transform: translateY(50px);
+    color: white; 
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Slabo 27px', serif;
+}
+#emailId{
+    width: 60%;
+    padding: 5px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.submitId{
+    background-color:orange;
+    border: none;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
